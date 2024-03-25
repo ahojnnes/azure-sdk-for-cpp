@@ -5,6 +5,8 @@
 set(AZ_ROOT_DIR "${CMAKE_CURRENT_LIST_DIR}/..")
 
 macro(az_vcpkg_integrate)
+  return()
+
   message("Vcpkg integrate step.")
 
   # AUTO CMAKE_TOOLCHAIN_FILE:
