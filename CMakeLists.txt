@@ -22,7 +22,7 @@ include(AzureTransportAdapters)
 include(AzureVcpkg)
 include(AzureBuildTargetForCI)
 
-az_vcpkg_integrate()
+# az_vcpkg_integrate()
 
 # Project definition
 project(azure-sdk LANGUAGES CXX C)
